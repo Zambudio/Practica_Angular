@@ -1,0 +1,30 @@
+
+  <div class="producto-container" *ngIf="articuloEncontrado">
+    <div class="imagen-container">
+        <img [src]="articuloEncontrado.getImagen()" alt="Imagen del producto">
+    </div>
+    <div class="info-container">
+        <div class="atributos-container">
+            <p>categoria</p>
+            <h1>{{articuloEncontrado.getNombre()}}</h1>
+            <h2>{{articuloEncontrado.getPrecio() | currency:'EUR':'symbol':'1.2-2'}}</h2>
+        </div>
+        <div class="color-container">
+            <p>Color: <b>Multicolor</b></p>
+            <img [src]="articuloEncontrado.getImagen()" alt="Imagen del producto">
+        </div>
+        <h3>Elige una talla:</h3>
+        <div class="tallas-container">
+            <button>3XS</button>
+            <button>2XS</button>
+            <button>XS</button>
+            <button>SM</button>
+            <button>MD</button>
+            <button>LG</button>
+            <button>XL</button>
+            <button>2XL</button>
+            <button>3XL</button>
+            <button>4XL</button>
+        </div>
+        <button>Añadir al carrito</button>
+    </div>

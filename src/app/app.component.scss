@@ -1,0 +1,19 @@
+.container-fluid {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Ajustar espaciado entre las categorías y los artículos */
+  app-categorias,
+  app-articulo-list,
+  app-articulo-form {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Ajustar margen del footer */
+  app-footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  

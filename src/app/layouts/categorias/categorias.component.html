@@ -1,0 +1,6 @@
+<div class="categorias">
+  <div *ngFor="let categoria of categorias" class="categoria">
+      <a><img [src]="categoria.getImagen()" alt="{{categoria.getNombre()}}" /></a>
+    <h3>{{categoria.getNombre()}}</h3>
+  </div>
+</div>

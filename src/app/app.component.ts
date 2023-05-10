@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'HolaAngular2';
+
+  constructor( private router: Router) {
+  
+  }
+
+  navegarAHome() {
+    this.router.navigate(['']);
+  }
+
+  navegarAAcercaDe() {
+    this.router.navigate(['acercade']);
+  }
 }

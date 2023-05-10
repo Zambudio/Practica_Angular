@@ -1,0 +1,13 @@
+.navbar-nav li.active > a {
+    background-color: black ;
+    color: whitesmoke;
+}
+
+.navbar-header {
+    text-align: center;
+}
+
+.navbar-header img {
+    max-height: 50px;
+    //max-width: fit-content;
+}

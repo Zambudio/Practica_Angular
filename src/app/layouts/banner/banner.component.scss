@@ -1,0 +1,18 @@
+.banner {
+  max-width: 90%;
+  max-height: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  z-index: 0;
+}
+
+.banner img {
+  flex: 1;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

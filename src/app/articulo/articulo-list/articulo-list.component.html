@@ -1,0 +1,5 @@
+<div>
+    <div class="grid-container">
+        <app-articulo-card *ngFor="let articulo of articulos" [articulo]="articulo" (click)="navegarAFicha(articulo.getId())" ></app-articulo-card>
+    </div>
+</div>

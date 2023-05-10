@@ -1,0 +1,25 @@
+.categorias {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.categoria {
+  margin: 10px;
+  flex: 1 1 calc(10% - 20px);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.categoria:last-child {
+  margin-right: 0;
+}
+
+.categoria img {
+  max-width: 100%;
+  height: auto;
+}

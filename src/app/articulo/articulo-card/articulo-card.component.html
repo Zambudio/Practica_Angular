@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+<div class="shop-card" *ngIf="articulo" >
+  <div class="slider">
+    <figure data-color="#E24938, #A30F22">
+      <img alt="producto" [src]="articulo.getImagen()" alt="Imagen de articulo {{articulo.getNombre()}}" />
+    </figure>
+  </div>
+
+  <div class="cta">
+    <div class="title"> {{articulo.getNombre()}}</div>
+      <button class="btn"><i class="fa fa-heart"></i><span class="bg"></span></button>
+    <div class="price">{{articulo.getPrecio() | currency:'EUR':'symbol':'1.2-2'}}</div>
+    <a class="btn btn-primary" (click)="pulsarBoton()" ></a>
+  </div>
+    
+</div>

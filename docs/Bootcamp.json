@@ -1,0 +1,194 @@
+{
+  "uuid": "28939b30-c500-48fc-8177-8a6df1f2f433",
+  "lastMigration": 27,
+  "name": "Bootcamp",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "0092e49b-3a0e-41e9-93d0-4b3a732e27b9",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "Items",
+      "responses": [
+        {
+          "uuid": "052e1d3d-9122-4eac-9f72-9cb6164bad0e",
+          "body": "[\n  {\n    \"id\":1,\n    \"nombre\": \"Cotton floral print Dress\",\n    \"precio\": 40,\n    \"descripcion\": \"Zapatilla Converse negra de tela\",        \n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-6.jpg\"\n  },\n    \n  {\n    \"id\":2,\n    \"nombre\": \"Suede cross body Bag\",\n    \"precio\": 49,\n    \"descripcion\": \"Zapatilla Adidas negra de tela\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-10.jpg\"\n  },\n    \n  {\n    \"id\":3,\n    \"nombre\": \"Cotton leaf print Shirt\",\n    \"precio\": 65,\n    \"descripcion\": \"Zapatilla Adidas negra de tela\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-32.jpg\"\n  \n  },\n  \n  {\n    \"id\":4,\n    \"nombre\": \"Leather Sneakers\",\n    \"precio\": 58,\n    \"descripcion\": \"Zapatilla Adidas negra de tela\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-49.jpg\"\n  },\n  \n  {\n    \"id\":5,\n    \"nombre\": \"Another fine dress\",\n    \"precio\": 99,\n    \"descripcion\": \"Zapatilla Adidas negra de tela\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-11.jpg\"\n  },\n  \n  {\n    \"id\":6,\n    \"nombre\": \"Baseball Cap\",\n    \"precio\": 10,\n    \"descripcion\": \"Zapatilla Adidas negra de tela\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-33.jpg\"\n  },\n  \n  {\n    \"id\":7,\n    \"nombre\": \"Leather sneakers\",\n    \"precio\": 19,\n    \"descripcion\": \"Zapatilla Adidas negra de tela\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-7.jpg\"\n  },\n  \n  {\n    \"id\":8,\n    \"nombre\": \"Sweathshirt with Pocket\",\n    \"precio\": 39,\n    \"descripcion\": \"Zapatilla Nike negra de tela\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-8.jpg\"\n  }\n  \n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "ed380044-1dee-45ff-a470-73ddbab909ab",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "ImagenesCarrousel",
+      "responses": [
+        {
+          "uuid": "92ad8c07-ca7d-4901-bca3-645ef1e4259d",
+          "body": "[  \r\n  \"https://images.pexels.com/photos/1113667/pexels-photo-1113667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=550&dpr=1\",\r\n  \"https://images.pexels.com/photos/859057/pexels-photo-859057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=550&dpr=1\",\r\n  \"https://images.pexels.com/photos/936023/pexels-photo-936023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=550&dpr=1\"\r\n]\r\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "f09213a1-d7c6-4cf7-8108-35725e3ceaec",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "ImagenesBanner",
+      "responses": [
+        {
+          "uuid": "6b8f05b1-091f-4d18-bd66-e91f71eb84d1",
+          "body": "[  \r\n  \"https://images.pexels.com/photos/6626999/pexels-photo-6626999.jpeg?auto=compress&cs=tinysrgb&w=560&h=250&dpr=1\",\r\n  \"https://images.pexels.com/photos/4668540/pexels-photo-4668540.jpeg?auto=compress&cs=tinysrgb&w=560&h=250&dpr=1\",\r\n  \"https://images.pexels.com/photos/5748665/pexels-photo-5748665.jpeg?auto=compress&cs=tinysrgb&w=560&h=250&dpr=1\"\r\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "fd5b081d-51a5-4a02-9441-c36074cd71de",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "Categorias",
+      "responses": [
+        {
+          "uuid": "428bebd6-8fe9-4e2a-a1e5-0bbb44fc5f0d",
+          "body": "[\n  {\n    \"nombre\": \"Camisetas\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-8.jpg\",\n    \"descripcion\": \"Categoria de camisetas\"       \n  },\n  {\n    \"nombre\": \"Bolsos\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-10.jpg\",\n    \"descripcion\": \"Categoria de Bolsos\"      \n  },\n    {\n    \"nombre\": \"Faldas\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-11.jpg\",\n    \"descripcion\": \"Categoria de Faldas\"      \n  },\n    {\n    \"nombre\": \"Zapatos\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-5.jpg\",\n    \"descripcion\": \"Categoria de Zapatos\"       \n  },\n    {\n    \"nombre\": \"Vestidos\",\n    \"imagen\": \"https://yevgenysim-turkey.github.io/shopper/assets/img/products/product-6.jpg\",\n    \"descripcion\": \"Categoria de Vestidos\"        \n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            }
+          ],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "0092e49b-3a0e-41e9-93d0-4b3a732e27b9"
+    },
+    {
+      "type": "route",
+      "uuid": "ed380044-1dee-45ff-a470-73ddbab909ab"
+    },
+    {
+      "type": "route",
+      "uuid": "f09213a1-d7c6-4cf7-8108-35725e3ceaec"
+    },
+    {
+      "type": "route",
+      "uuid": "fd5b081d-51a5-4a02-9441-c36074cd71de"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}

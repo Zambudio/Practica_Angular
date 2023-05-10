@@ -1,0 +1,16 @@
+.grid-container {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.app-articulo-card {
+  width: calc(25% - 10px);
+  margin: 10px;
+  margin-bottom: 20px;
+
+}
